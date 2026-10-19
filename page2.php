@@ -1,0 +1,29 @@
+<?php
+session_start();
+// echo session_id();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <?php 
+    include "navbar.php";
+    ?>
+    <h1 class="text-center">Page2</h1>
+    <h4 class="text-center text-muted">Bienvenue <?= $_SESSION['pseudo']?> de la classe <?= $_SESSION['classe']?></h4>
+    <p>Adolf Hitler[a] (20 April 1889 – 30 April 1945) was an Austrian-born German politician who was dictator of Germany in the Nazi era from 1933 until his suicide in 1945. He rose to power as the leader of the Nazi Party,[b] becoming the chancellor of Germany in 1933 and then taking the title of Führer und Reichskanzler in 1934.[c] Germany's invasion of Poland on 1 September 1939 under his leadership marked the outbreak of the Second World War. Throughout the ensuing conflict, Hitler was closely involved in the direction of German military operations and was central to the perpetration of the genocide of about six million Jews in the Holocaust as well as the deaths of millions of other victims.
+
+Hitler was born in Braunau am Inn in Austria-Hungary and moved to Germany in 1913. He was decorated during his service in the German Army in the First World War, receiving the Iron Cross. In 1919, he joined the German Workers' Party (DAP), the precursor of the Nazi Party, and in 1921, was appointed the leader of the Nazi Party. In 1923, he attempted to seize governmental power in a failed coup in Munich and was sentenced to five years in prison, serving just over a year. While there, he dictated the first volume of his autobiography and political manifesto Mein Kampf ('my struggle'). After his early release in 1924, he gained popular support by attacking the Treaty of Versailles as well as promoting pan-Germanism, antisemitism, and anti-communism with charismatic oratory and Nazi propaganda. He frequently denounced communism as being part of an international Jewish conspiracy.
+
+Following elections to the Reichstag in November 1932, the Nazi Party held the most seats in the Reichstag ('parliament'), but not a majority. Subsequently, former chancellor Franz von Papen and other conservative politicians convinced Reichspräsident ('president') Paul von Hindenburg to appoint Hitler as chancellor on 30 January 1933. Shortly thereafter, on 23 March, the Reichstag passed the Enabling Act of 1933, which ultimately began the Weimar Republic's transformation into Nazi Germany. Upon Hindenburg's death on 2 August 1934, Hitler replaced him as head of state and thereafter, Germany became a totalitarian dictatorship. Domestically, Hitler began to implement numerous racist policies, which marginalised and scapegoated German Jews. His first six years in power resulted in rapid economic recovery from the Great Depression, the abrogation of restrictions imposed on Germany after the First World War, and the annexation of territories inhabited by millions of ethnic Germans, which won him significant popularity.
+
+One of Hitler's key goals was Lebensraum ('living space') for the German people in Eastern Europe. His aggressive, expansionist foreign policy is considered the primary cause of World War II in Europe. On 1 September 1939, Hitler oversaw the German invasion of Poland, thereby causing Britain and France to declare war on Germany. After ordering an invasion of the Soviet Union in June 1941, he declared war on the United States in December of the same year. By the end of 1941, German forces and the European Axis powers occupied most of Europe and North Africa. These gains were gradually reversed after 1941 until the Allied forces defeated the German military in 1945. On 29 April 1945, Hitler married his longtime partner, Eva Braun, in the Führerbunker ('leader's bunker') in Berlin. They committed suicide the next day to avoid capture by the Soviet Red Army.
+
+The historian and biographer Ian Kershaw described Hitler as "the embodiment of modern political evil".[3] Under Hitler's leadership and racist ideology, the Nazi regime was responsible for the genocide of an estimated six million Jews and millions of other victims, whom he and his followers deemed Untermenschen ('subhumans') or socially undesirable. Hitler and the Nazis were also responsible for the deliberate killing of an estimated 19.3 million civilians and prisoners of war. In addition, 28.7 million soldiers and civilians died as a result of military action in the European theatre. In absolute terms, the number of civilians killed during World War II in Europe was unprecedented in warfare, and the casualties make it the deadliest conflict in history.</p>
+</body>
+</html>
