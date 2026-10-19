@@ -23,6 +23,7 @@ session_start();
     <?php 
     if (isset($_POST['soumi'])){
         $_SESSION['pseudo'] = $_POST['nom'];
+        echo "<font color='green'>Your input is saved!</font>";
     }
     ?>
 </body>
